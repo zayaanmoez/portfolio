@@ -1,16 +1,56 @@
 .slider {
-    border: 1px solid red;
+    position: relative;
     width: 100%;
-    height: 100vh;
+    height: 30%;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     display: flex;
     align-items: center;
+    background: black;
+    i {
+        font-size: 2vw;
+    }
 }
 
 .slide {
-    border: 1px solid blue;
     min-width: 100%;
-    height: 80vh;
+    height: 80%;
+    transition: 0.5s;
+    overflow: hidden;
 }
+
+%btn-styles {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10%;
+    height: 80vh;
+    background: none;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    &:hover {
+        background: rgba(15, 10, 0, 0.356);
+        cursor: pointer;
+        i {
+            color: rgb(119, 119, 119);
+        }
+    }
+}
+
+#goLeft {
+    left: 0;
+    @extend %btn-styles;
+}
+
+#goRight {
+    right: 0;
+    @extend %btn-styles;
+}
+
+.bg-sld {
+    width: 100%;
+    height: auto;
+}
+

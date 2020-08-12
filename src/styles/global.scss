@@ -1,0 +1,16 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #212121;
+
+    ::selection {
+        background: #212121;
+        color: white;
+    }
+    ::-moz-selection {
+        background:  #212121;
+        color: white;
+    }
+}

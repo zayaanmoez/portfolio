@@ -1,0 +1,26 @@
+[
+    {
+        "type": "Languages",
+        "data": ["Java", "C++", "Python", "C", "JavaScript", "TypeScript"]
+    },
+    {
+        "type": "Front End/ UI",
+        "data": ["React", "Node", "Angular", "Nativescript", "AJAX", "Spring Framework"]
+    },
+    {
+        "type": "Back End",
+        "data": ["Node.js", "Express.js"]
+    },
+    {
+        "type": "Database",
+        "data": ["MySQL", "PostgreSQL", "MongoDB", "GraphQL", "Firebase"]
+    },
+    {
+        "type": "Tools",
+        "data": ["Git", "Jira", "Maven", "Docker", "WildFly", "AWS", "Azure"]
+    },
+    {
+        "type": "Operating Systems",
+        "data": ["macOS", "Windows", "Linux"]   
+    }
+]

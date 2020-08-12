@@ -46,7 +46,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: "viewport",
-          content: "width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no",
+          content: "width=device-width,initial-scale=1,minimum-scale=1",
         },
         {
           name: "HandheldFriendly",
@@ -54,7 +54,13 @@ function SEO({ description, lang, meta, title }) {
         },
 
       ].concat(meta)}
-    />
+    >
+      <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet"></link>
+    </Helmet>
   )
 }
 
