@@ -1,12 +1,13 @@
 .overlay-content {
   position: relative;
   margin: 100px 0;
-  top: 40%;
-  transform: translateY(-40%);
+  top: 30%;
+  transform: translateY(-30%);
   width: 100%;
   text-align: center;
   display: grid;
   grid-template-rows: auto auto auto auto auto;
+  align-content: center;
   justify-content: space-around;
   grid-template-columns: auto;
 
@@ -36,5 +37,11 @@
   .overlay-content {
     top: 30%;
     transform: translateY(-30%);
+  }
+}
+
+@media only screen and (max-height: 300px) {
+  .overlay .links{
+    font-size: 25px;
   }
 }

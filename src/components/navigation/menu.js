@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 import "../../styles/menu.scss"
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const StyledMenu = styled.div`
   height: 100%;
@@ -27,8 +28,8 @@ const Menu = (props) => {
       <div className="overlay-content">
         {menuItems.map((item, index) => {
           return(
-            <div onClick={props.handler}> 
-              <Link key={index} href={'#'+item.toLowerCase()} className="links">{item}</Link>
+            <div key={index} onClick={props.handler}> 
+              <AnchorLink href={'#'+item.toLowerCase()} className="links">{item}</AnchorLink>
             </div>
           )
         })}

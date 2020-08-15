@@ -4,6 +4,9 @@ html {
 
 body {
     background-color: #212121;
+    min-width: 360px;        
+    width: auto !important;
+    width: 360px; 
 
     ::selection {
         background: #212121;

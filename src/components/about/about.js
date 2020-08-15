@@ -21,6 +21,10 @@ const StyledDiv = styled.div`
         font-size: 30px;
     }
 
+    .edu {
+        font-weight: 500;
+    }
+
     @media only screen and (max-width: 1024px) {
         padding: 75px 7.5%;
         .main {
@@ -41,23 +45,24 @@ const StyledDiv = styled.div`
         }
     }
 
-
 `;
 
 const About = () => {
     return(
-        <section id="about">
+        <div id="about">
             <StyledDiv>
-                <p class="main">Hi, I'm Zayaan. I'm a third year computer science student at Carleton University 
+                <p className="main">Hi, I'm Zayaan. I'm a third year computer science student at Carleton University 
                     looking for software developer coop jobs for Winter 2021.</p>
-                <p class="sub" unselectable="on"> I am a full-stack developer with industry experience in Java, Python, Angular and SQL 
+                <p className="sub" unselectable="on"> I am a full-stack developer with industry experience in Java, Python, Angular and SQL 
                 developing data warehousing web apps and IOS and Android mobile applications. 
                 I like to learn new skills, continue challenging myself, and work on interesting projects in my spare time. 
                 I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. 
                 Feel free to get in touch by any means of communication.</p>
+                <br/>
+                <p className="sub edu">Bachelor Of Computer Science (Algorithms Stream - B.C.S. Honours) </p>
             </StyledDiv>
             <Skills/>
-        </section>
+        </div>
     )
 };
 

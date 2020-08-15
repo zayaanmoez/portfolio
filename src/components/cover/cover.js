@@ -54,14 +54,14 @@ const Cover = () => {
         delay: 500})
 
     return (
-        <section id="home">
+        <div id="home">
             <Background/>
             <StyledCover style={props}>
                 <p id="t1">ZAYAAN MOEZ</p>
                 <p id="t2">Software Developer</p>
                 <SocialBar color="#212121" size="70px"/>
             </StyledCover>
-        </section>
+        </div>
     )
 
 }
