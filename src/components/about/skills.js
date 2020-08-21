@@ -83,8 +83,6 @@ const StyledSet = styled.div`
     }
 `
 
-console.log(skillList)
-
 const Skills = () => {
     return(
         <StyledTree>

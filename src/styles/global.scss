@@ -1,9 +1,17 @@
 html {
     scroll-behavior: smooth;
+    ::selection {
+        background: #212121;
+        color: white;
+    }
+    
+    ::-moz-selection {
+        background:  #212121;
+        color: white;
+    }
 }
 
 body {
-    background-color: #212121;
     min-width: 360px;        
     width: auto !important;
     width: 360px; 
@@ -12,6 +20,7 @@ body {
         background: #212121;
         color: white;
     }
+    
     ::-moz-selection {
         background:  #212121;
         color: white;

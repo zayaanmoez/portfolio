@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
 import "../../styles/menu.scss"
@@ -28,8 +27,8 @@ const Menu = (props) => {
       <div className="overlay-content">
         {menuItems.map((item, index) => {
           return(
-            <div key={index} onClick={props.handler}> 
-              <AnchorLink href={'#'+item.toLowerCase()} className="links">{item}</AnchorLink>
+            <div key={index}> 
+              <AnchorLink href={'#'+item.toLowerCase()} className="links" onClick={props.handler}>{item}</AnchorLink>
             </div>
           )
         })}

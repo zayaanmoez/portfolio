@@ -1,0 +1,83 @@
+.modal-content {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.custom-modal-style {
+
+    width: 700px !important;
+    height: 600px !important;
+    max-height: 100vh !important;
+}
+
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(auto, 300px) 1fr;
+}
+
+.body-modal{
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+
+    .head {
+        padding-top: 10px;
+        color: #363636;
+    }
+
+    .body {
+        padding-top: 30px;
+    }
+
+    .footer {
+        width: 100%;
+        display: inline-flex;
+
+        .closeButton {
+            position: absolute;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 40px;
+            color: gray;
+            right: 30px;
+            bottom: 30px;
+    
+            &:hover {
+                color: #363636;;
+            }
+        }
+    }
+    
+}
+
+.btn-outline {
+    color: #263238!important;
+    border: 2px !important;
+    border-style: inset !important; 
+    border-color: #263238 !important;
+    box-shadow: none !important;
+    padding: 10px 20px !important;
+    font-weight: 500 !important;
+    &:hover {
+        background-color: #263238 !important;
+        color: white !important;
+        cursor: pointer;
+    } 
+}
+
+@media only screen and (max-width: 700px) {
+    .custom-modal-style {
+        width: 95vw !important;
+        align-self: center;
+    }
+}
+
+@media only screen and (min-height: 1000px) {
+    .custom-modal-style {
+        top: 20px !important;
+    }
+}

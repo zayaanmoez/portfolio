@@ -1,23 +1,15 @@
 import React from "react"
 import Navigation from "../components/navigation/navigation.js"
-import Layout from "../components/layout"
-import Slider from "../components/slider"
-import SEO from "../components/seo"
-import About from "../components/about/about"
+import Layout from "../components/layout.js"
+import SEO from "../components/seo.js"
+import About from "../components/about/about.js"
 import Cover from "../components/cover/cover.js"
+import Projects from "../components/projects/projects.js"
+import Experience from "../components/experience.js"
+import Contact from "../components/contact.js"
+import Footer from "../components/footer.js"
 import ReactBootstrapStyle from '@bit/react-bootstrap.react-bootstrap.internal.style-links';
-import styled from "styled-components";
-
-const Carousel = styled.div`
-    overflow: hidden;
-    width: 100vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    align-items: centre;
-    background: black;
-    position: relative;
-    z-index: 0;
-`;
+import "../styles/global.scss"
 
 const IndexPage = () => (
   <>
@@ -27,9 +19,10 @@ const IndexPage = () => (
     <Navigation siteTitle={"zayaanm"}/>
     <ReactBootstrapStyle/>
     <About/>
-    {/* <Carousel>
-      <Slider/>
-    </Carousel> */}
+    <Projects/>
+    <Experience/>
+    <Contact/>
+    <Footer/>
   </Layout>
   </>
 )
