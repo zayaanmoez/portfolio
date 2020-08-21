@@ -8,7 +8,6 @@ import Projects from "../components/projects/projects.js"
 import Experience from "../components/experience.js"
 import Contact from "../components/contact.js"
 import Footer from "../components/footer.js"
-import ReactBootstrapStyle from '@bit/react-bootstrap.react-bootstrap.internal.style-links';
 import "../styles/global.scss"
 
 const IndexPage = () => (
@@ -17,7 +16,6 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Cover />
     <Navigation siteTitle={"zayaanm"}/>
-    <ReactBootstrapStyle/>
     <About/>
     <Projects/>
     <Experience/>
