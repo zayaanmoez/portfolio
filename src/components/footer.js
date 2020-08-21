@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from "styled-components";
-import SocialBar from './social.js'
 
 const StyledFooter = styled.div`
     padding-top: 15px;

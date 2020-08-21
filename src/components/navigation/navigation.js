@@ -10,16 +10,13 @@ const Navigation = ({ siteTitle }) => {
 
   return (
     <>
-    <Navbar className="navbar" fixed="top">
-        <div id="brandDiv">
-          <Link to='/'><span id="logo"> <Logo color={'#e0e0e0'}/> </span></Link>
-          <Link to='/' id="brand">{siteTitle}</Link>
-        </div>  
-        <Navbar.Collapse className="burger justify-content-end"><Burger/></Navbar.Collapse>
-    </Navbar>
-    {/* <div className="navbar sticky-nav">
-
-    </div> */}
+      <Navbar className="navbar" fixed="top">
+          <div id="brandDiv">
+            <Link to='/'><span id="logo"> <Logo color={'#e0e0e0'}/> </span></Link>
+            <Link to='/' id="brand">{siteTitle}</Link>
+          </div>  
+          <Navbar.Collapse className="burger justify-content-end"><Burger/></Navbar.Collapse>
+      </Navbar>
     </>
   )
 
