@@ -41,6 +41,19 @@ const StyledGallery = styled.div`
         grid-template-columns: repeat(auto-fit, minmax(300px, 400px));
     }
 `
+
+// const StyledFrame = styled.iframe`
+//     width: 800px;
+//     height: 800px;
+
+//     @media only screen and (max-width: 1200px) {
+//         grid-template-columns: repeat(auto-fit, minmax(400px, max-content));
+//     }
+
+//     @media only screen and (max-width: 800px) {
+//         display: none;
+//     }
+// `
          
 const Projects = () => {
 
@@ -96,6 +109,8 @@ const Projects = () => {
                 })}
                 <ProjectModal show={show} handleClose={handleClose} project={proj}/>
             </StyledGallery>
+            {/* <StyledFrame title="Chamber Crawler 3000+" frameborder="no" scrolling="no" allowFullScreen
+                src="https://repl.it/@zayaanmoez/CC3K?lite=1&outputonly=1 title nologo"></StyledFrame> */}
         </StyledProjects>
     )
 };

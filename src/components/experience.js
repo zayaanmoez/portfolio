@@ -7,8 +7,9 @@ const StyledExperience = styled.div`
     width: 100%;
     padding-bottom: 100px;
     font-family: "Montserrat", sans-serif;
-    background-color: #eee;
+    background-color: #eee; 
     color: #212121;
+    white-space: pre-line;
 
     .spacer {
         width:100vw;
@@ -104,7 +105,7 @@ const Experience = () => {
                                 <Accordion.Collapse eventKey={index + 1} style={{ transition: 'height 1s ease' }}>
                                     <div>
                                         <hr/>
-                                        <p className="description">{experience.description}</p>
+                                        <p className="description">{experience.description.replace(/\\n/g, '\n')}</p>
                                         <p className="skills">{experience.skills.join(" / ")}</p>
                                     </div>
                                 </Accordion.Collapse>

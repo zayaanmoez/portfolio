@@ -1,30 +1,30 @@
 [
     {
-        "name": "Canadian Institute for Health Information",
-        "position": "Data Acquisitions - Coop Software Developer",
-        "dates": "Sep 2019 - Dec 2019",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sapien hendrerit, tristique ipsum in, pulvinar nisl. Curabitur eget facilisis sem. Morbi cursus magna eget diam pharetra, non dictum nibh semper. Sed pretium non libero ut vestibulum. Vivamus ante odio, posuere id erat vel, laoreet molestie libero.",
-        "skills": ["Java", "Spring Framework", "MySQL", "JSP"]
-    },
-    {
-        "name": "Otrack.io",
+        "name": "Otrack.io", 
         "position": "Software Developer Intern",
-        "dates": "May 2020 - Aug 2020",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sapien hendrerit, tristique ipsum in, pulvinar nisl. Curabitur eget facilisis sem. Morbi cursus magna eget diam pharetra, non dictum nibh semper. Sed pretium non libero ut vestibulum. Vivamus ante odio, posuere id erat vel, laoreet molestie libero.",
+        "dates": "June 2020 - Aug 2020",
+        "description": "• Developed modules for native mobile application for IOS and android in nativescript and Angular for grocery apps\n• Developed and released mobile applications for 4 stores using Otrack’s template software on Android and IOS to launch online storefronts for the clients\n• Redesigned UI for application views using Angular and Sass to improve navigational and display components and enhance the user experience",
         "skills": ["Nativesript", "Angular", "Typescript", "PostgresSQL", "Docker", "AWS"]
     },
     {
-        "name": "Carleton University",
-        "position": "Teaching Assistant - COMP 2406",
+        "name": "Canadian Institute for Health Information",
+        "position": "Data Acquisitions - Coop Software Developer",
+        "dates": "Sep 2019 - Dec 2019",
+        "description": "• Developed a comparison report service with web UI in Java for program area to highlight and list discrepancies and changes made upon data loading that drastically improved the quality assurance of the data in the database\n• Migrated Canadian MIS database (CMDB) legacy application from Struts to Spring Boot and MVC framework; redeveloping java backend controllers, frontend xml configurations and JSP pages with EL and JSTL to improve application performance, software support and update the app to a modern technology stack\n• Designed solutions to resolve software design and program deficiencies/problems relating to  validation, message resources, CIHI authentication services and Spring security to resolve migration issues and improve code design and performance\n• Redeveloped automated testing using Junit and Mockito for the CMDB web app after migration for build time and release testing",
+        "skills": ["Java", "Spring Framework", "MySQL", "JSP"]
+    },
+    {
+        "name": "Carleton Computer Science",
+        "position": "Teaching Assistant",
         "dates": "Sep 2020 - Present",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sapien hendrerit, tristique ipsum in, pulvinar nisl. Curabitur eget facilisis sem. Morbi cursus magna eget diam pharetra, non dictum nibh semper. Sed pretium non libero ut vestibulum. Vivamus ante odio, posuere id erat vel, laoreet molestie libero.",
-        "skills": ["Node.js", "Javascript", "Express", "MongoDB"]
+        "description": "• TA for fundamentals of web applications in fall 2020 and intro to systems engineering in winter 2021",
+        "skills": ["Node.js", "Javascript", "Express", "MongoDB", "C"]
     },
     {
         "name": "ITREB Canada - Virtual Learning Center",
         "position": "Web Developer",
-        "dates": "Apr  2020 - Present",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac sapien hendrerit, tristique ipsum in, pulvinar nisl. Curabitur eget facilisis sem. Morbi cursus magna eget diam pharetra, non dictum nibh semper. Sed pretium non libero ut vestibulum. Vivamus ante odio, posuere id erat vel, laoreet molestie libero.",
+        "dates": "Apr 2020 - Oct 2020",
+        "description": "• Developed and administered an LTI K-12 learning platform for ITREB Canada using Moodle to host integrated programming for 5000 students across the country\n• Developed customized report services using MySQL and Python to compile user statistics, track progress and generate activity reports ",
         "skills": ["Javascript", "Python", "MySQL", "Azure"]
     }
 ]

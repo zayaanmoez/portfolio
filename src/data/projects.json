@@ -26,7 +26,7 @@
     {
         "name": "Chamber Crawler 3000",
         "type": "C++ Command-Line RPG",
-        "description": "CC3k is a simple, text-based rogue-like RPG for Linux and OS X developed in C++. The game is generated from a random number engine and is implemented with design patterns including MVC and decorator pattern.",
+        "description": "CC3k is a simple, text-based rogue-like RPG for Linux and OS X developed in C++. The game is generated from a random number engine and is implemented with design patterns including MVC and decorator pattern. \n\n Try it out: https://repl.it/@zayaanmoez/CC3K#README.md",
         "skills": ["C++"],
         "image": "pexels-fabian-reitmeier-707837.jpg",
         "code": "https://github.com/zayaanmoez/CC3K"
