@@ -1,5 +1,21 @@
 [
     {
+        "name": "tslr.io",
+        "type": "A NLP text api / News Board web-app",
+        "description": "tslr.io is a news board app that features NLP text summarization, analysis, and classification pipelines built using TensorFlow and Transformers with a Flask api",
+        "skills": ["Python", "React", "Tensorflow", "Flask", "MongoDB", "Docker"],
+        "image": "pexels-negative-space-177557.jpg",
+        "code": "https://github.com/tslrio"
+    },
+    {
+        "name": "Chamber Crawler 3000",
+        "type": "C++ Command-Line RPG",
+        "description": "CC3k is a simple, text-based rogue-like RPG for Linux and OS X developed in C++. The game is generated from a random number engine and is implemented with design patterns including MVC and decorator pattern. \n\n Try it out: https://repl.it/@zayaanmoez/CC3K#README.md",
+        "skills": ["C++"],
+        "image": "pexels-fabian-reitmeier-707837.jpg",
+        "code": "https://github.com/zayaanmoez/CC3K"
+    },
+    {
         "name": "Stoxs",
         "type": "Web Scrapper/ Python Stocks App",
         "description": "A Web Scrapping tool with a Python API to export closing table data into csv and panda data frames from WSJ. Populates local databases with regular scrapping from WSJ for over 4000 companies across four markets. Text-based user interface for quering data from the databases to export as csv files or generate linear regressions, tables and candlestick graphs using Matplotlib for visualizing and analyzing stock data",
@@ -22,14 +38,6 @@
         "skills": ["React", "Gatsby", "GraphQL", "Sass"],
         "image": "pexels-negative-space-169573.jpg",
         "code": "https://github.com/zayaanmoez/portfolio"
-    },
-    {
-        "name": "Chamber Crawler 3000",
-        "type": "C++ Command-Line RPG",
-        "description": "CC3k is a simple, text-based rogue-like RPG for Linux and OS X developed in C++. The game is generated from a random number engine and is implemented with design patterns including MVC and decorator pattern. \n\n Try it out: https://repl.it/@zayaanmoez/CC3K#README.md",
-        "skills": ["C++"],
-        "image": "pexels-fabian-reitmeier-707837.jpg",
-        "code": "https://github.com/zayaanmoez/CC3K"
     },
     {
         "name": "EDA - Weather AUS",

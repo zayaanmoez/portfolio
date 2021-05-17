@@ -1,5 +1,12 @@
 [
     {
+        "name": "March Networks", 
+        "position": "Software Developer Coop",
+        "dates": "May 2021 - Aug 2021",
+        "description": "• Backend developer",
+        "skills": ["Node.js", "Typescript", "Docker", "Kubernetes", "TypeORM"]
+    },
+    {
         "name": "Otrack.io", 
         "position": "Software Developer Intern",
         "dates": "June 2020 - Aug 2020",
