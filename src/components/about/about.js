@@ -52,7 +52,7 @@ const About = () => {
         <div id="about">
             <StyledDiv>
                 <p className="main">Hi, I'm Zayaan. I'm a third year computer science student at Carleton University 
-                    looking for software developer coop jobs for Fall 2021.</p>
+                    looking for software developer coop jobs for Summer 2022.</p>
                 <p className="sub" unselectable="on"> I am a full-stack developer with experience in developing microservices, 
                 server-side applications, data warehousing web apps, and IOS and Android mobile applications. 
                 I like to learn new skills, continue challenging myself, and work on interesting projects in my spare time. 
