@@ -17,7 +17,7 @@
     },
     {
         "type": "Tools",
-        "data": ["Git", "Jira", "AWS", "RabbitMQ", "Helm", "Redis", "Jenkins"]
+        "data": ["Git", "Jira", "AWS", "RabbitMQ", "Helm", "Redis", "Jenkins", "Kafka"]
     },
     {
         "type": "Operating Systems",
