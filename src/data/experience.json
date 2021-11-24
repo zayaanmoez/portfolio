@@ -10,7 +10,7 @@
         "name": "March Networks", 
         "position": "Software Developer Coop",
         "dates": "May 2021 - Aug 2021",
-        "description": "• Developed REST APIs for the VSAAS platform microservices with node.js, Typescript, gRPC, and TypeORM to add tenant, license, and device management functionality\n• Implemented restrictions for super admin roles to manage access to licensed services\n• Created and modified HPA policies and load tested Kubernetes clusters to report on performance for the microservices and document bugs and issues\n• Refactored event broker service and implemented a pub/sub mechanism with Redis to improve event versioning and WebSocket gateway performance",        ,
+        "description": "• Developed REST APIs for the VSAAS platform microservices with node.js, Typescript, gRPC, and TypeORM to add tenant, license, and device management functionality\n• Implemented restrictions for super admin roles to manage access to licensed services\n• Created and modified HPA policies and load tested Kubernetes clusters to report on performance for the microservices and document bugs and issues\n• Refactored event broker service and implemented a pub/sub mechanism with Redis to improve event versioning and WebSocket gateway performance",
         "skills": ["Node.js", "Typescript", "Docker", "Kubernetes", "TypeORM"]
     },
     {
