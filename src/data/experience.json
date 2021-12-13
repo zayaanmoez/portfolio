@@ -10,7 +10,7 @@
         "name": "March Networks", 
         "position": "Software Developer Coop",
         "dates": "May 2021 - Aug 2021",
-        "description": "• Developed REST APIs for the VSAAS platform microservices with node.js, Typescript, gRPC, and TypeORM to add tenant, license, and device management functionality\n• Implemented restrictions for super admin roles to manage access to licensed services\n• Created and modified HPA policies and load tested Kubernetes clusters to report on performance for the microservices and document bugs and issues\n• Refactored event broker service and implemented a pub/sub mechanism with Redis to improve event versioning and WebSocket gateway performance by over 60%",        ,
+        "description": "• Developed REST APIs for the VSAAS platform microservices with node.js, Typescript, gRPC, and TypeORM to add tenant, license, and device management functionality\n• Implemented restrictions for super admin roles to manage access to licensed services\n• Created and modified HPA policies and load tested Kubernetes clusters to report on performance for the microservices and document bugs and issues\n• Refactored event broker service and implemented a pub/sub mechanism with Redis to improve event versioning and WebSocket gateway performance by over 60%",
         "skills": ["Node.js", "Typescript", "Docker", "Kubernetes", "TypeORM"]
     },
     {
@@ -33,5 +33,12 @@
         "dates": "Sep 2020 - Present",
         "description": "• TA for fundamentals of web applications in fall 2020 and intro to systems engineering in winter 2021",
         "skills": ["Node.js", "Javascript", "Express", "MongoDB", "C"]
+    },
+    {
+        "name": "ITREB Canada - Virtual Learning Center",
+        "position": "Web Developer",
+        "dates": "Apr 2020 - Oct 2020",
+        "description": "• Developed and administered an LTI K-12 learning platform for ITREB Canada using Moodle to host integrated programming for 5000 students across the country\n• Developed customized report services using MySQL and Python to compile user statistics, track progress and generate activity reports ",
+        "skills": ["Javascript", "Python", "MySQL", "Azure"]
     }
 ]

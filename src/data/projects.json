@@ -1,5 +1,13 @@
 [
     {
+        "name": "DQN Space Invaders AI",
+        "type": "Deep Learning Agent",
+        "description": "A deep q-learning agent to train a convonlutional neural network to play Atari 2600 Space Invaders with reinforcement learning",
+        "skills": ["Python", "Keras", "Tensorflow"],
+        "image": "space-invaders.jpg",
+        "code": "https://github.com/zayaanmoez/space-invaders-ai"
+    },
+    {
         "name": "tlsr.io",
         "type": "A NLP text api / News Board web-app",
         "description": "tslr.io is a news board app that features NLP text summarization, analysis, and classification pipelines built using TensorFlow and Transformers with a Flask api",
