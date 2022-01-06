@@ -10,7 +10,7 @@
     {
         "name": "tlsr.io",
         "type": "A NLP text api / News Board web-app",
-        "description": "tslr.io is a news board app that features NLP text summarization, analysis, and classification pipelines built using TensorFlow and Transformers with a Flask api",
+        "description": "tslr.io is a news board app that features NLP text summarization, analysis, and classification pipelines built using TensorFlow and Transformers with a Flask api. \n\n In development. Try it out: https://0251-184-146-2-236.ngrok.io/",
         "skills": ["Python", "React", "Tensorflow", "Flask", "MongoDB", "Docker"],
         "image": "pexels-negative-space-177557.jpg",
         "code": "https://github.com/tlsrio"
