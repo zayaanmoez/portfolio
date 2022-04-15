@@ -67,14 +67,6 @@
         "code": "https://github.com/zayaanmoez/delivr"
     },
     {
-        "name": "Portfolio",
-        "type": "React Portfolio Site",
-        "description": "Personal site. Developed with React, Gatsby, GraphQL and Sass.",
-        "skills": ["React", "Gatsby", "GraphQL", "Sass"],
-        "image": "pexels-negative-space-169573.jpg",
-        "code": "https://github.com/zayaanmoez/portfolio"
-    },
-    {
         "name": "EDA - Weather AUS",
         "type": "Exploratory Data Analysis",
         "description": "A data analysis project in Jupyter. Preprocessed and cleaned weather dataset from Kaggle in Python and Jupyter to create a training dataset for training binary classification models. Used 6 different machine learning models to predict rain for the next day with an accuracy of 84% using gradient boosting trees.",
