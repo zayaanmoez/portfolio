@@ -12,6 +12,10 @@
         "data": ["Node.js", "Spring Boot", "Docker", "Kubernetes", "gRPC", "Express"]
     },
     {
+        "type": "Machine Learning",
+        "data": ["Tensorflow", "Keras", "Numpy", "Jupyter"]
+    },
+    {
         "type": "Database",
         "data": ["MySQL", "PostgreSQL", "MongoDB", "GraphQL", "TypeORM"]
     },
