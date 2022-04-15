@@ -49,7 +49,10 @@ const ProjectModal = (props) => {
                         <p>{props.project.description}</p>
                     </div>
                     <div className="footer">
-                        <Button variant="outline" href={props.project.code}>Source Code</Button>
+                        <Button variant="outline" href={props.project.code}>Source</Button>
+                        {props.project.link ? 
+                            <Button variant="outline" href={props.project.link}>Demo</Button>
+                        : <></>}
                         <i class="fas fa-times closeButton" aria-hidden="true" aria-label="close" onClick={props.handleClose}></i>
                     </div>
                 </div>

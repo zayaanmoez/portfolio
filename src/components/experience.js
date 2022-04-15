@@ -16,7 +16,7 @@ const StyledExperience = styled.div`
         height: 100px;
         margin-bottom: 50px;
         left: 0;
-        background: linear-gradient(to right bottom, #212121 49%, #eee 50%);
+        background: linear-gradient(to right bottom, #0d0d0d 49%, #eee 50%);
 
     }
 
@@ -48,7 +48,7 @@ const StyledExperience = styled.div`
             transition: all 5s ease !important;
             border-radius: 10px;
             padding: 20px 40px;
-            background-color: #212121;
+            background-color: #0d0d0d;
             color: #e0e0e0;
 
         }

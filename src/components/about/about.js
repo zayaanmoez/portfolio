@@ -51,15 +51,15 @@ const About = () => {
     return(
         <div id="about">
             <StyledDiv>
-                <p className="main">Hi, I'm Zayaan. I'm a third year computer science student at Carleton University 
-                    looking for software developer coop jobs for Summer 2022.</p>
+                <p className="main">Hi, I'm Zayaan. I'm a fourth year computer science student at Carleton University 
+                    looking for software engineer internships for Fall 2022.</p>
                 <p className="sub" unselectable="on"> I am a full-stack developer with experience in developing microservices, 
-                server-side applications, data warehousing web apps, and IOS and Android mobile applications. 
+                server-side applications, data warehousing applications, and React Web apps. 
                 I like to learn new skills, continue challenging myself, and work on interesting projects in my spare time. 
                 I’m a fast learner, able to pick up new skills and juggle different projects and roles with relative ease. 
                 Feel free to get in touch by any means of communication.</p>
                 <br/>
-                <p className="sub edu">Bachelor Of Computer Science (Algorithms Stream - B.C.S. Honours) </p>
+                <p className="sub edu">Bachelor Of Computer Science - Carleton University (B.C.S. Honours - May 2023) </p>
             </StyledDiv>
             <Skills/>
         </div>

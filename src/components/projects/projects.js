@@ -96,6 +96,10 @@ const Projects = () => {
                         <>
                         <div className="card ag-cell-focus">
                             <Img fluid={image.node.childImageSharp.fluid} style={{ minHeight: '300px' }}/>
+                            <div className="card-preview">
+                                <p className="name">{project.name}</p>
+                                <p className="types">{project.type}</p>
+                            </div>
                             <div className="card-display">
                                 <div className="text">
                                     <p className="name">{project.name}</p>

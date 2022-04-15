@@ -1,15 +1,41 @@
 [
     {
+        "name": "Quests",
+        "type": "Card Game App",
+        "description": "Quests is an online 2-4 player card game based on the Quests of the Round Table. The app server is built with Java, Spring Boot and Stompjs web sockets with a React client and hosted on heroku.",
+        "skills": ["Java", "Spring Boot", "React", "Javascript"],
+        "image": "quest.jpg",
+        "link": "http://quest-rt.herokuapp.com/",
+        "code": "https://github.com/quests-roundtable"
+    },
+    {
         "name": "DQN Space Invaders AI",
-        "type": "Deep Learning Agent",
-        "description": "A deep q-learning agent to train a convonlutional neural network to play Atari 2600 Space Invaders with reinforcement learning",
+        "type": "Deep Learning RL Agent",
+        "description": "A deep q-learning agent to train a convonlutional neural network to play Atari 2600 Space Invaders with reinforcement learning.",
         "skills": ["Python", "Keras", "Tensorflow"],
-        "image": "space-invaders.jpg",
+        "image": "space-invaders.png",
         "code": "https://github.com/zayaanmoez/space-invaders-ai"
     },
     {
+        "name": "LaneNet - Lane Detection",
+        "type": "Instance Segmentation",
+        "description": "An end-to-end implementation of CNN based lane detection with instance segementation. Training an autoencoder mutli-branch network on the TuSimple dataset.",
+        "skills": ["Python", "OpenCV", "Keras", "Tensorflow"],
+        "image": "lane.jpg",
+        "code": "https://github.com/zayaanmoez/lane-detection"
+    },
+    {
+        "name": "RTOS Scheduling",
+        "type": "RTOS Scheduler Simulation",
+        "description": "A simulation of preemptive scheduling of tasks in an RTOS. Implements priority, round robin, modified round robin, modulo based round robin and priority based round robin scheduling algorithms.",
+        "skills": ["C", "QNX"],
+        "image": "rtos.jpg",
+        "link": "https://replit.com/@zayaanmoez/Scheduling-RTOS",
+        "code": "https://github.com/zayaanmoez/rtos-scheduling"
+    },
+    {
         "name": "tlsr.io",
-        "type": "A NLP text api / News Board web-app",
+        "type": "NLP text api / News Board",
         "description": "tslr.io is a news board app that features NLP text summarization, analysis, and classification pipelines built using TensorFlow and Transformers with a Flask api",
         "skills": ["Python", "React", "Tensorflow", "Flask", "MongoDB", "Docker"],
         "image": "pexels-negative-space-177557.jpg",
@@ -21,13 +47,14 @@
         "description": "CC3k is a simple, text-based rogue-like RPG for Linux and OS X developed in C++. The game is generated from a random number engine and is implemented with design patterns including MVC and decorator pattern. \n\n Try it out: https://repl.it/@zayaanmoez/CC3K#README.md",
         "skills": ["C++"],
         "image": "pexels-fabian-reitmeier-707837.jpg",
+        "link": "https://replit.com/@zayaanmoez/CC3K",
         "code": "https://github.com/zayaanmoez/CC3K"
     },
     {
         "name": "Stoxs",
         "type": "Web Scrapper/ Python Stocks App",
         "description": "A Web Scrapping tool with a Python API to export closing table data into csv and panda data frames from WSJ. Populates local databases with regular scrapping from WSJ for over 4000 companies across four markets. Text-based user interface for quering data from the databases to export as csv files or generate linear regressions, tables and candlestick graphs using Matplotlib for visualizing and analyzing stock data",
-        "skills": ["Python", "MySQL", "React"],
+        "skills": ["Python", "MySQL", "Pandas", "Matplotlib"],
         "image": "pexels-lorenzo-241544.jpg",
         "code": "https://github.com/stoxs/Stoxs"
     },

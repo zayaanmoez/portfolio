@@ -1,23 +1,23 @@
 [
     {
         "type": "Languages",
-        "data": ["Java", "C++", "Python", "C", "TypeScript", "JavaScript"]
+        "data": ["Java", "Python", "C++", "C", "TypeScript", "JavaScript"]
     },
     {
         "type": "Front End/ UI",
-        "data": ["React", "Gatsby", "Angular", "Nativescript", "Spring"]
+        "data": ["React", "Gatsby", "Angular", "Nativescript"]
     },
     {
         "type": "Back End",
-        "data": ["Node.js", "Express", "Docker", "Kubernetes", "gRPC"]
+        "data": ["Node.js", "Spring Boot", "Docker", "Kubernetes", "gRPC", "Express"]
     },
     {
         "type": "Database",
-        "data": ["MySQL", "PostgreSQL", "MongoDB", "GraphQL", "TypeORM", "Firebase"]
+        "data": ["MySQL", "PostgreSQL", "MongoDB", "GraphQL", "TypeORM"]
     },
     {
         "type": "Tools",
-        "data": ["Git", "Jira", "AWS", "RabbitMQ", "Helm", "Redis", "Jenkins", "Kafka"]
+        "data": ["Git", "Jira", "AWS", "RabbitMQ", "Helm", "Redis", "Jenkins", "Kafka", "Tensorflow", "Keras"]
     },
     {
         "type": "Operating Systems",
