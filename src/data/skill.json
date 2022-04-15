@@ -12,19 +12,15 @@
         "data": ["Node.js", "Spring Boot", "Docker", "Kubernetes", "gRPC", "Express"]
     },
     {
+        "type": "Tools",
+        "data": ["Git", "Jira", "AWS", "RabbitMQ", "Helm", "Redis", "Jenkins", "Kafka"]
+    },
+    {
         "type": "Machine Learning",
         "data": ["Tensorflow", "Keras", "Numpy", "Jupyter"]
     },
     {
         "type": "Database",
         "data": ["MySQL", "PostgreSQL", "MongoDB", "GraphQL", "TypeORM"]
-    },
-    {
-        "type": "Tools",
-        "data": ["Git", "Jira", "AWS", "RabbitMQ", "Helm", "Redis", "Jenkins", "Kafka", "Tensorflow", "Keras"]
-    },
-    {
-        "type": "Operating Systems",
-        "data": ["macOS", "Windows", "Linux"]   
     }
 ]
