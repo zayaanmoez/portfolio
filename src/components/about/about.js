@@ -25,6 +25,19 @@ const StyledDiv = styled.div`
         font-weight: 500;
     }
 
+    .cert a{
+        color: black;
+        text-decoration: none !important;
+        font-weight: 400;
+        font-size: 30px;
+        &:hover {
+            font-weight: 500;
+            transition: all 0.5s ease-in-out;
+            text-decoration: none !important;
+
+        }
+    }
+
     @media only screen and (max-width: 1024px) {
         padding: 75px 7.5%;
         .main {
@@ -60,6 +73,7 @@ const About = () => {
                 Feel free to get in touch by any means of communication.</p>
                 <br/>
                 <p className="sub edu">Bachelor Of Computer Science - Carleton University (B.C.S. Honours - May 2023) </p>
+                <p className="cert"><a href="https://www.credly.com/badges/427eb2bf-c87b-4f6f-a03e-21de6db88e5b/public_url">AWS Certified Solutions Architect - Associate</a></p>
             </StyledDiv>
             <Skills/>
         </div>
