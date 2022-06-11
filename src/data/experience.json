@@ -33,12 +33,5 @@
         "dates": "September 2020 - August 2021",
         "description": "• TA for fundamentals of web applications in fall 2020 and intro to systems engineering in winter 2021",
         "skills": ["Node.js", "Javascript", "Express", "MongoDB", "C"]
-    },
-    {
-        "name": "Virtual Learning Center",
-        "position": "Web Developer",
-        "dates": "Apr 2020 - Oct 2020",
-        "description": "• Developed and administered an LTI K-12 learning platform for ITREB Canada using Moodle to host integrated programming for 5000 students across the country\n• Developed customized report services using MySQL and Python to compile user statistics, track progress and generate activity reports ",
-        "skills": ["Javascript", "Python", "MySQL", "Azure"]
     }
 ]
