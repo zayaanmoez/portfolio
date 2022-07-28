@@ -3,8 +3,8 @@
         "name": "Trend Micro", 
         "position": "Software Engineer Intern",
         "dates": "May 2022 - August 2022",
-        "description": "",
-        "skills": []
+        "description": "• Developing Cloud One Workload Security MQTT communications hub using AWS IoT Core, SQS, Lambda and Go",
+        "skills": ["Go", "AWS Iot", "AWS Lambda", "MQTT"]
     },
     {
         "name": "Nokia", 
